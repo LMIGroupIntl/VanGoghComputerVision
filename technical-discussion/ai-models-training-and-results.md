@@ -40,13 +40,13 @@ Our baseline Swin Transformer showed clear signs of overfitting. To address this
 
 _Demonstrates overfitting, as the validation loss begins to increase while training loss continues to decrease._
 
-<figure><img src="../.gitbook/assets/loss_plot_overfit_swin.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./loss-plot-images/loss_plot_overfit_swin.png" alt=""><figcaption></figcaption></figure>
 
 #### Loss Plots: After Regularization
 
 _Post-regularization: The validation loss converges consistently with the training loss, demonstrating reduced overfitting._
 
-<figure><img src="../.gitbook/assets/loss_plot_regularized_swin.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./loss-plot-images/loss_plot_regularized_swin.png" alt=""><figcaption></figcaption></figure>
 
 ### What is Stabilization?
 
@@ -64,13 +64,13 @@ Our baseline EfficientNet-B5 model was highly unstable. We implemented the follo
 
 _Demonstrates extreme instability, with the validation loss spiking uncontrollably._
 
-<figure><img src="../.gitbook/assets/loss_plot_unstable_effnet.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./loss-plot-images/loss_plot_unstable_effnet.png" alt=""><figcaption></figcaption></figure>
 
 #### Loss Plots: After Stabilization
 
 _Post-stabilization: The validation loss shows smooth, consistent convergence without any erratic spikes, indicating stable training dynamics._
 
-<figure><img src="../.gitbook/assets/loss_plot_effnet_stable.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./loss-plot-images/loss_plot_effnet_stable.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
