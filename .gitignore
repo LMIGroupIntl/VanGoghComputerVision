@@ -1,0 +1,68 @@
+# Node modules
+node_modules/
+
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Trained model weights
+backend/model/*.pth
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*~
+
+# Environment variables
+.env
+
+# Data
+*.db
+dataset/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environment directories
+venv/
+.venv/
+
+# Large model weights and checkpoints
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.npy
+*.npz
+
+# Compressed and archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Experiment runs and generated artifacts
+AR_model_data/
